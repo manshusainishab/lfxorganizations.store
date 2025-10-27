@@ -7,7 +7,6 @@ import { addOrgs } from "../controllers/AddOrgs";
 const prisma = new PrismaClient();
 export const router = Router();
 
-// Attach route handler
 router.get("/orgs", getAllOrgs(prisma));
 router.get("/:orgId/details", getOrgById(prisma));
 router.post("/orgs", addOrgs(prisma));

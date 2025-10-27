@@ -87,9 +87,11 @@ export const addOrgs = (prisma: PrismaClient) => async (req: Request, res: Respo
           await attachSkillsToProject(tx, newProject.id, requiredSkills);
         }
       }
+    }, {
+      timeout: 600000, // 60 seconds
     });
 
-    res.json({ message: "✅ Projects inserted successfully" });
+    res.json({ message: `${projects.length} Projects inserted successfully` });
   } catch (err) {
     console.error("❌ Error inserting projects:", err);
     res.status(500).json({ error: "Internal Server Error" });
