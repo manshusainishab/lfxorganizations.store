@@ -1,6 +1,8 @@
 import type { JSX } from "react"
 import { OrganizationCard } from "./organization-card"
 import type { OrganizationGridProps } from '../types/index'
+import { Link } from "react-router-dom"
+
 
 export function OrganizationGrid({
   organizations,
@@ -38,7 +40,9 @@ export function OrganizationGrid({
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {organizations.map((org) => (
-        <OrganizationCard key={org.id} organization={org} onClick={() => onSelectOrg(org)} />
+        <Link key={org.id} to={`/${org.id}/details`} className="block">
+          <OrganizationCard organization={org} onClick={()=>null}/>
+        </Link>
       ))}
     </div>
   )
