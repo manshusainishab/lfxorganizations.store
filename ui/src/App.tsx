@@ -1,13 +1,13 @@
 import { useState, useMemo, useCallback, useEffect } from "react"
-import { BrowserRouter, Routes, Route, useParams, Link } from "react-router-dom"
-import { Header } from "../components/header"
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import { Header } from "./components/header"
 import { Sidebar } from "../components/sidebar"
 import { SearchBar } from "../components/search-bar"
 import { OrganizationGrid } from "../components/organization-grid"
-import type { Organization } from "../types/index"
+import type { Organization } from "./types/index"
 import axios from "axios"
-import OrganizationDetailsPage from '../components/OrganizationDetailsPage';
-import Loader from "../components/loader"
+import OrganizationDetailsPage from './components/OrganizationDetailsPage';
+import Loader from "./components/loader"
 
 function Home() {
   const [organizations, setOrganizations] = useState<Organization[]>([])
@@ -16,20 +16,19 @@ function Home() {
   const [selectedTerms, setSelectedTerms] = useState<(1 | 2 | 3)[]>([])
   const [selectedOrg, setSelectedOrg] = useState<Organization | null>(null)
 
-  async function fetchOrganizations() {
+  useEffect(() => {
+    const fetchOrganizations = async () => {
     try {
       console.log("Fetching organizations...")
       const response = await axios.get("http://localhost:3000/api/v1/orgs")
       setOrganizations(
         response.data.sort((a: Organization, b: Organization) => a.name.localeCompare(b.name))
       )
-      console.log("Organizations fetched:", response.data)
-    } catch (err) {
-      console.error("Failed to fetch organizations", err)
+      console.log("Organizations fetched successfully")
+    } catch (err : any) {
+      console.error("Failed to fetch organizations", err.message)
     }
   }
-
-  useEffect(() => {
     fetchOrganizations()
   }, [])
 

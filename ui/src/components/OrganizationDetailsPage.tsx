@@ -60,12 +60,20 @@ const OrganizationDetailsPage = () => {
   };
 
   const years = [...new Set(orgDetails.yearWiseTerms.map((item) => item.year))].sort((a, b) => b - a);
-
-  const chartData = years.map((year) => {
-    const yearData: Record<string, number | string> = { year: year.toString() };
+  
+  type ChartDataPointLocal = {
+    year: string;
+    "Term 1": number;
+    "Term 2": number;
+    "Term 3": number;
+  };
+  
+  const chartData: ChartDataPointLocal[] = years.map((year) => {
+    const yearData: ChartDataPointLocal = { year: year.toString(), "Term 1": 0, "Term 2": 0, "Term 3": 0 };
     [1, 2, 3].forEach((term) => {
       const termData = orgDetails.yearWiseTerms.find((item) => item.year === year && item.term === term);
-      yearData[`Term ${term}`] = termData ? termData.projects.length : 0;
+      const key = `Term ${term}` as "Term 1" | "Term 2" | "Term 3";
+      yearData[key] = termData ? termData.projects.length : 0;
     });
     return yearData;
   }).reverse();
@@ -123,7 +131,7 @@ const OrganizationDetailsPage = () => {
               return termData ? (
                 <section
                   key={term}
-                  className="bg-gradient-to-br from-white via-[#f8fbff] to-[#eaf5ff] border border-[#0094ff]/10 rounded-2xl p-8 transition-all duration-500 hover:shadow-[0_6px_24px_rgba(0,148,255,0.15)]"
+                  className="bg-linear-to-br from-white via-[#f8fbff] to-[#eaf5ff] border border-[#0094ff]/10 rounded-2xl p-8 transition-all duration-500 hover:shadow-[0_6px_24px_rgba(0,148,255,0.15)]"
                 >
                   {/* Header */}
                   <div className="flex items-center justify-between mb-8 flex-wrap gap-4">

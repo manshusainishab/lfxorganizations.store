@@ -5,13 +5,12 @@ type Theme = "auto" | "light" | "dark";
 type Variant = "spinner" | "globe" | "progress";
 
 export interface LoaderProps {
-  size?: number; // base size in px
-  theme?: Theme; // auto chooses based on prefers-color-scheme
+  size?: number; 
+  theme?: Theme;
   variant?: Variant;
   message?: string;
   className?: string;
   showText?: boolean;
-  /** When true, loader is visually smaller and less intrusive */
   compact?: boolean;
 }
 
