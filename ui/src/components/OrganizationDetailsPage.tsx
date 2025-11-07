@@ -7,6 +7,7 @@ import { ProjectCard } from "./organization/ProjectCard";
 import { ChartSection } from "./organization/ChartSection";
 import { YearSelector } from "./organization/YearSelector";
 import { OrgHeader } from "./organization/OrgHeader";
+import { SERVICE_API_BASE_URL } from "../utils/constants";
 
 interface Project {
   id: string;
@@ -48,7 +49,7 @@ const OrganizationDetailsPage = () => {
   }, [orgId]);
 
   const getOrgDetails = async (id: number) => {
-    const response = await axios.get<OrgDetails>(`http://localhost:3000/api/v1/${id}/details`);
+    const response = await axios.get<OrgDetails>(`${SERVICE_API_BASE_URL}/${id}/details`);
     if (response.status !== 200) {
       throw new Error("Failed to fetch organization details");
     }

@@ -2,9 +2,7 @@ import type { JSX } from "react"
 import { motion } from "framer-motion"
 import type { SidebarProps } from "../types/index"
 import { CheckCircle2, Circle } from "lucide-react"
-
-const YEARS: number[] = [2025, 2024, 2023, 2022, 2021, 2020]
-const TERMS: (1 | 2 | 3)[] = [1, 2, 3]
+import { YEARS } from "../utils/constants"
 
 export function Sidebar({
   selectedYears,
@@ -72,43 +70,6 @@ export function Sidebar({
                     <Circle className="h-4 w-4 opacity-60" />
                   )}
                   <span>{year}</span>
-                </motion.button>
-              )
-            })}
-          </div>
-        </section>
-
-        {/* TERMS FILTER */}
-        <section>
-          <h3 className="text-sm font-semibold tracking-wide text-primary mb-3 uppercase">
-            Terms
-          </h3>
-          <div className="flex flex-col gap-2">
-            {TERMS.map((term) => {
-              const active = selectedTerms.includes(term)
-              return (
-                <motion.button
-                  key={term}
-                  onClick={() => toggleTerm(term)}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  transition={{ type: "spring", stiffness: 250, damping: 15 }}
-                  className={`
-                    flex items-center gap-3 px-3 py-2 rounded-xl text-sm
-                    transition-all duration-300
-                    ${
-                      active
-                        ? "bg-primary/20 text-primary font-medium border border-primary/30"
-                        : "hover:bg-primary/10 text-muted-foreground border border-transparent"
-                    }
-                  `}
-                >
-                  {active ? (
-                    <CheckCircle2 className="h-4 w-4 text-primary" />
-                  ) : (
-                    <Circle className="h-4 w-4 opacity-60" />
-                  )}
-                  <span>Term {term}</span>
                 </motion.button>
               )
             })}

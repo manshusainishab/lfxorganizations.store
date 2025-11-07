@@ -1,13 +1,14 @@
 import { useState, useMemo, useCallback, useEffect } from "react"
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 import { Header } from "./components/header"
-import { Sidebar } from "../components/sidebar"
-import { SearchBar } from "../components/search-bar"
-import { OrganizationGrid } from "../components/organization-grid"
+import { Sidebar } from "./components/sidebar"
+import { SearchBar } from "./components/search-bar"
+import { OrganizationGrid } from "./components/organization-grid"
 import type { Organization } from "./types/index"
 import axios from "axios"
 import OrganizationDetailsPage from './components/OrganizationDetailsPage';
 import Loader from "./components/loader"
+import { SERVICE_API_BASE_URL } from "./utils/constants"
 
 function Home() {
   const [organizations, setOrganizations] = useState<Organization[]>([])
@@ -20,7 +21,7 @@ function Home() {
     const fetchOrganizations = async () => {
     try {
       console.log("Fetching organizations...")
-      const response = await axios.get("http://localhost:3000/api/v1/orgs")
+      const response = await axios.get(`${SERVICE_API_BASE_URL}/orgs`)
       setOrganizations(
         response.data.sort((a: Organization, b: Organization) => a.name.localeCompare(b.name))
       )

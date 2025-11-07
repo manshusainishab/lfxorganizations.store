@@ -13,7 +13,7 @@ export function Header({ title = "LFX Organizations" }: HeaderProps): JSX.Elemen
           <div className="flex items-center gap-3 sm:gap-4 group">
             {/* Animated logo */}
             <div className="relative">
-              <img src='./public/platform-logo.png' alt='LFX Logo' className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl shadow-lg shadow-blue-500/25 group-hover:shadow-blue-500/40 transition-all group-hover:scale-105" />
+              <img src='platform-logo.png' alt='LFX Logo' className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl shadow-lg shadow-blue-500/25 group-hover:shadow-blue-500/40 transition-all group-hover:scale-105" />
             </div>
 
             {/* Title with gradient */}
