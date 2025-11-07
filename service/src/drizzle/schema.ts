@@ -1,8 +1,6 @@
 import { pgTable, varchar, timestamp, text, integer, uniqueIndex, index, serial, foreignKey, primaryKey } from "drizzle-orm/pg-core"
 import { sql } from "drizzle-orm"
 
-
-
 export const prismaMigrations = pgTable("_prisma_migrations", {
 	id: varchar({ length: 36 }).primaryKey().notNull(),
 	checksum: varchar({ length: 64 }).notNull(),

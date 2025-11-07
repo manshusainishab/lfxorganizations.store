@@ -55,7 +55,7 @@ export function OrganizationGrid({
     )
   }
 
-  // 🧱 Organization Grid
+  //  Organization Grid
   return (
     <AnimatePresence mode="popLayout">
       <motion.div

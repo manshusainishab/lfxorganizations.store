@@ -16,19 +16,19 @@ export function OrganizationCard({
     >
       {/* Gradient Background Accent */}
       <motion.div
-        className="absolute inset-0 bg-gradient-to-br from-primary/8 via-primary/3 to-transparent opacity-0 transition-opacity duration-500"
+        className="absolute inset-0 bg-linear-to-br from-primary/8 via-primary/3 to-transparent opacity-0 transition-opacity duration-500"
         layoutId={`bg-${organization.id}`}
       />
       
       {/* Decorative Corner Element */}
-      <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-bl-full opacity-50 blur-2xl" />
+      <div className="absolute top-0 right-0 w-32 h-32 bg-linear-to-br from-primary/10 to-transparent rounded-bl-full opacity-50 blur-2xl" />
 
       {/* Content Container */}
       <div className="relative z-10 flex flex-col h-full p-6">
         {/* Logo Section */}
         <div className="flex items-start justify-between mb-5">
           <div className="relative">
-            <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-border/40 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center shadow-md group-hover:border-primary/50 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20">
+            <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-border/40 bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center shadow-md group-hover:border-primary/50 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20">
               <img
                 src={
                   organization.logoUrl ||
@@ -58,9 +58,6 @@ export function OrganizationCard({
           </h3>
           
           {/* Category Badge */}
-          {/* <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-orange-500 text-white shadow-sm">
-            {organization.category || "Organization"}
-          </span> */}
         </div>
 
         {/* Description */}
@@ -69,7 +66,7 @@ export function OrganizationCard({
         </p>
 
         {/* Divider with gradient */}
-        <div className="my-auto mb-5 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+        <div className="my-auto mb-5 h-px bg-linear-to-r from-transparent via-border to-transparent" />
 
         {/* Year Tags Section */}
         <div className="mb-4">

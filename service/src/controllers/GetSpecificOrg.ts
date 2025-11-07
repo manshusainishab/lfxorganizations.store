@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { db } from "../db";
-import { organizations, orgDetails, projects, projectSkills, skills } from "../db/schema";
+import { organization, orgDetail, project, projectSkill, skill } from "../db/schema";
 import { eq, desc } from "drizzle-orm";
 
 export const getOrgById = async (req: Request, res: Response): Promise<void> => {
@@ -12,11 +12,11 @@ export const getOrgById = async (req: Request, res: Response): Promise<void> => 
     }
 
     // Fetch organization with nested relations manually
-    const org = await db.query.organizations.findFirst({
-      where: eq(organizations.id, orgId),
+    const org = await db.query.organization.findFirst({
+      where: eq(organization.id, orgId),
       with: {
         details: {
-          orderBy: [desc(orgDetails.year), desc(orgDetails.term)],
+          orderBy: [desc(orgDetail.year), desc(orgDetail.term)],
           with: {
             projects: {
               with: {

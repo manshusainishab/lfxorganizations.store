@@ -1,7 +1,7 @@
 import { pgTable, serial, varchar, text, integer, timestamp, unique, index, primaryKey } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 
-export const organizations = pgTable("Organization", {
+export const organization = pgTable("Organization", {
   id: serial("id").primaryKey(),
   name: varchar("name", { length: 255 }).unique().notNull(),
   description: text("description"),
@@ -12,9 +12,9 @@ export const organizations = pgTable("Organization", {
   nameIdx: index("organization_name_idx").on(t.name),
 }));
 
-export const orgDetails = pgTable("OrgDetail", {
+export const orgDetail = pgTable("OrgDetail", {
   id: serial("id").primaryKey(),
-  orgId: integer("orgId").references(() => organizations.id, { onDelete: "cascade" }).notNull(),
+  orgId: integer("orgId").references(() => organization.id, { onDelete: "cascade" }).notNull(),
   year: integer("year").notNull(),
   term: integer("term").notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
@@ -24,10 +24,10 @@ export const orgDetails = pgTable("OrgDetail", {
   yearTermIdx: index("orgdetail_year_term_idx").on(t.year, t.term),
 }));
 
-export const projects = pgTable("Project", {
+export const project = pgTable("Project", {
   id: serial("id").primaryKey(),
-  orgId: integer("orgId").references(() => organizations.id, { onDelete: "cascade" }).notNull(),
-  orgDetailId: integer("orgDetailId").references(() => orgDetails.id, { onDelete: "cascade" }).notNull(),
+  orgId: integer("orgId").references(() => organization.id, { onDelete: "cascade" }).notNull(),
+  orgDetailId: integer("orgDetailId").references(() => orgDetail.id, { onDelete: "cascade" }).notNull(),
   title: varchar("title", { length: 255 }).notNull(),
   upstreamIssue: text("upstreamIssue"),
   lfxUrl: text("lfxUrl"),
@@ -38,16 +38,16 @@ export const projects = pgTable("Project", {
   orgDetailIdx: index("project_orgdetail_idx").on(t.orgDetailId),
 }));
 
-export const skills = pgTable("Skill", {
+export const skill = pgTable("Skill", {
   id: serial("id").primaryKey(),
   name: varchar("name", { length: 255 }).unique().notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
 });
 
-export const projectSkills = pgTable("ProjectSkill", {
-  projectId: integer("projectId").references(() => projects.id, { onDelete: "cascade" }).notNull(),
-  skillId: integer("skillId").references(() => skills.id, { onDelete: "cascade" }).notNull(),
+export const projectSkill = pgTable("ProjectSkill", {
+  projectId: integer("projectId").references(() => project.id, { onDelete: "cascade" }).notNull(),
+  skillId: integer("skillId").references(() => skill.id, { onDelete: "cascade" }).notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
 }, (t) => ({
@@ -55,23 +55,23 @@ export const projectSkills = pgTable("ProjectSkill", {
 }));
 
 // Relations
-export const orgRelations = relations(organizations, ({ many }) => ({
-  details: many(orgDetails),
-  projects: many(projects),
+export const orgRelations = relations(organization, ({ many }) => ({
+  details: many(orgDetail),
+  projects: many(project),
 }));
 
-export const orgDetailRelations = relations(orgDetails, ({ one, many }) => ({
-  org: one(organizations, { fields: [orgDetails.orgId], references: [organizations.id] }),
-  projects: many(projects),
+export const orgDetailRelations = relations(orgDetail, ({ one, many }) => ({
+  org: one(organization, { fields: [orgDetail.orgId], references: [organization.id] }),
+  projects: many(project),
 }));
 
-export const projectRelations = relations(projects, ({ one, many }) => ({
-  org: one(organizations, { fields: [projects.orgId], references: [organizations.id] }),
-  orgDetail: one(orgDetails, { fields: [projects.orgDetailId], references: [orgDetails.id] }),
-  skills: many(projectSkills),
+export const projectRelations = relations(project, ({ one, many }) => ({
+  org: one(organization, { fields: [project.orgId], references: [organization.id] }),
+  orgDetail: one(orgDetail, { fields: [project.orgDetailId], references: [orgDetail.id] }),
+  skills: many(projectSkill),
 }));
 
-export const projectSkillRelations = relations(projectSkills, ({ one }) => ({
-  project: one(projects, { fields: [projectSkills.projectId], references: [projects.id] }),
-  skill: one(skills, { fields: [projectSkills.skillId], references: [skills.id] }),
+export const projectSkillRelations = relations(projectSkill, ({ one }) => ({
+  project: one(project, { fields: [projectSkill.projectId], references: [project.id] }),
+  skill: one(skill, { fields: [projectSkill.skillId], references: [skill.id] }),
 }));
