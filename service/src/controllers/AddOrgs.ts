@@ -77,7 +77,7 @@ async function attachskillToProject(projectId: number, requiredskill: string[]) 
 }
 
 export const addOrgs = async (req: Request, res: Response) => {
-  console.log("📩 Received bulk insert request");
+  console.log("Received bulk insert request");
 
   const project = req.body;
   if (!Array.isArray(project) || project.length === 0) {

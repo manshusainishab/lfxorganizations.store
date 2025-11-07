@@ -9,7 +9,7 @@ const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 const db = drizzle(pool, { schema });
 
 async function seed() {
-  console.log('🌱 Starting seed process...');
+  console.log('Starting seed process...');
 
   if (process.env.NODE_ENV === 'production') {
     throw new Error('Refusing to TRUNCATE in production. Set NODE_ENV!=production to proceed.');
