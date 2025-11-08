@@ -1,0 +1,1 @@
+export const SERVICE_API_BASE_URL: string = import.meta.env.VITE_SERVICE_API_BASE_URL as string;

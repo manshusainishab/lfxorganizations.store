@@ -1,9 +1,16 @@
 import express from "express";
 import cors from 'cors';
 import { router as orgsRouter } from "./router/orgs";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: process.env.FRONTEND_URL,
+  methods: ["GET", "POST", "PUT", "DELETE"],
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use((req, res, next) => {

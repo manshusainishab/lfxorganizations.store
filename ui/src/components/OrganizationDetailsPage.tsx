@@ -7,7 +7,7 @@ import { ProjectCard } from "./organization/ProjectCard";
 import { ChartSection } from "./organization/ChartSection";
 import { YearSelector } from "./organization/YearSelector";
 import { OrgHeader } from "./organization/OrgHeader";
-import { SERVICE_API_BASE_URL } from "../utils/constants";
+import { SERVICE_API_BASE_URL } from "../../env";
 
 interface Project {
   id: string;

@@ -21,7 +21,7 @@ docker compose up
 ```
 Wait until you see `Server running successfully` in the logs before proceeding.
 
-3. Go to `ui/src/utils/constants.ts` and change *SERVICE_API_BASE_URL* value to *http://localhost:3000/api/v1*
+3. run `cp .env.example .env`
 
 4. Terminal 2 — start UI:
 ```bash

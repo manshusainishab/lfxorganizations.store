@@ -8,7 +8,7 @@ import type { Organization } from "./types/index"
 import axios from "axios"
 import OrganizationDetailsPage from './components/OrganizationDetailsPage';
 import Loader from "./components/loader"
-import { SERVICE_API_BASE_URL } from "./utils/constants"
+import { SERVICE_API_BASE_URL } from "../env"
 
 function Home() {
   const [organizations, setOrganizations] = useState<Organization[]>([])
@@ -19,7 +19,6 @@ function Home() {
   useEffect(() => {
     const fetchOrganizations = async () => {
     try {
-      console.log("Fetching organizations...")
       const response = await axios.get(`${SERVICE_API_BASE_URL}/orgs`)
       setOrganizations(
         response.data.sort((a: Organization, b: Organization) => a.name.localeCompare(b.name))
