@@ -21,11 +21,10 @@ docker compose up
 ```
 Wait until you see `Server running successfully` in the logs before proceeding.
 
-3. run `cp .env.example .env`
-
-4. Terminal 2 — start UI:
+3. Terminal 2 — start UI:
 ```bash
 cd ui
+cp .env.example .env
 npm i
 npm run dev
 ```
