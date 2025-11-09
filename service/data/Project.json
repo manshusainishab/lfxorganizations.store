@@ -4878,5 +4878,1025 @@
         "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/41a8bf79-a903-4c03-afb7-256fd373c0b0",
         "createdAt": "2025-10-27 07:30:27.469",
         "updatedAt": "2025-10-27 07:30:27.469"
+    },
+    {
+        "id": 492,
+        "orgId": 16,
+        "orgDetailId": 215,
+        "title": "Develop new feature and add integration tests for LitmusCTL",
+        "upstreamIssue": "https://github.com/litmuschaos/litmus/issues/3440",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/b86dbdc2-6bef-41f1-9fc4-c0a354ef3702",
+        "createdAt": "2025-11-09 20:24:57.131",
+        "updatedAt": "2025-11-09 20:24:57.131"
+    },
+    {
+        "id": 493,
+        "orgId": 12,
+        "orgDetailId": 216,
+        "title": "Extending kubearmor-cli-tool filtering options",
+        "upstreamIssue": "https://github.com/kubearmor/kubearmor-client/issues/40",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/aebb67b1-c918-4eee-8c25-df0cf7e38bee",
+        "createdAt": "2025-11-09 20:24:58.044",
+        "updatedAt": "2025-11-09 20:24:58.044"
+    },
+    {
+        "id": 494,
+        "orgId": 12,
+        "orgDetailId": 216,
+        "title": "Mutating webhooks for annotations (KubeArmor)",
+        "upstreamIssue": "https://github.com/kubearmor/KubeArmor/issues/360",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/81f0d863-30ca-43b5-a368-fd422ec681a6",
+        "createdAt": "2025-11-09 20:24:59.509",
+        "updatedAt": "2025-11-09 20:24:59.509"
+    },
+    {
+        "id": 495,
+        "orgId": 45,
+        "orgDetailId": 217,
+        "title": "Interactive Katacoda Playground for Chaos Experiment Examples",
+        "upstreamIssue": "https://github.com/chaos-mesh/chaos-mesh/issues/2842",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/09847d84-5d14-4c05-8644-57cdde5b6466",
+        "createdAt": "2025-11-09 20:25:01.145",
+        "updatedAt": "2025-11-09 20:25:01.145"
+    },
+    {
+        "id": 496,
+        "orgId": 51,
+        "orgDetailId": 218,
+        "title": "Enhance multi-cluster observability",
+        "upstreamIssue": "https://github.com/oam-dev/kubevela/issues/3177",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/d4cca618-f091-415e-a74d-bb11267795e7",
+        "createdAt": "2025-11-09 20:25:03.331",
+        "updatedAt": "2025-11-09 20:25:03.331"
+    },
+    {
+        "id": 497,
+        "orgId": 51,
+        "orgDetailId": 218,
+        "title": "Extend monitoring through VelaQL",
+        "upstreamIssue": "https://github.com/oam-dev/kubevela/issues/3178",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/849ac80c-2086-4df6-b2f8-b57b0a78b51d",
+        "createdAt": "2025-11-09 20:25:04.785",
+        "updatedAt": "2025-11-09 20:25:04.785"
+    },
+    {
+        "id": 498,
+        "orgId": 51,
+        "orgDetailId": 218,
+        "title": "Management of Terraform state",
+        "upstreamIssue": "https://github.com/oam-dev/terraform-controller/issues/239",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2a182d3b-f5cd-4ca7-9ede-4e8b5158c6a2",
+        "createdAt": "2025-11-09 20:25:06.249",
+        "updatedAt": "2025-11-09 20:25:06.249"
+    },
+    {
+        "id": 499,
+        "orgId": 25,
+        "orgDetailId": 219,
+        "title": "Improving the performance of running miniruby",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1062",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/4fe23ece-633c-488a-93a4-0501cae5a6f5",
+        "createdAt": "2025-11-09 20:25:08.066",
+        "updatedAt": "2025-11-09 20:25:08.066"
+    },
+    {
+        "id": 500,
+        "orgId": 25,
+        "orgDetailId": 219,
+        "title": "Improving the performance of running rustpython",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1061",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/08d37da9-56cb-42bd-ae17-99fec51c9e1d",
+        "createdAt": "2025-11-09 20:25:09.702",
+        "updatedAt": "2025-11-09 20:25:09.702"
+    },
+    {
+        "id": 501,
+        "orgId": 25,
+        "orgDetailId": 219,
+        "title": "Enable OpenVINO backend for WASI-NN",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1063",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/3d219bc9-0d8f-4ca3-b2fb-9058aad4067d",
+        "createdAt": "2025-11-09 20:25:11.158",
+        "updatedAt": "2025-11-09 20:25:11.158"
+    },
+    {
+        "id": 502,
+        "orgId": 25,
+        "orgDetailId": 219,
+        "title": "Implement typed function references proposal",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1123",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/47dbcdfb-7468-4f31-8701-a51f705ac87f",
+        "createdAt": "2025-11-09 20:25:12.805",
+        "updatedAt": "2025-11-09 20:25:12.805"
+    },
+    {
+        "id": 503,
+        "orgId": 15,
+        "orgDetailId": 220,
+        "title": "Extend Kyverno CLI test command for Generate policy rules",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3114",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/6b79b7b7-7f30-4891-bdb1-5798ea207bef",
+        "createdAt": "2025-11-09 20:25:14.077",
+        "updatedAt": "2025-11-09 20:25:14.077"
+    },
+    {
+        "id": 504,
+        "orgId": 15,
+        "orgDetailId": 220,
+        "title": "e2e tests and CLI tests to cover sample policies",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3121",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/5eb8e708-86e6-4650-b5ed-1614f1cbfc0e",
+        "createdAt": "2025-11-09 20:25:16.62",
+        "updatedAt": "2025-11-09 20:25:16.62"
+    },
+    {
+        "id": 505,
+        "orgId": 15,
+        "orgDetailId": 220,
+        "title": "Automate Performance Testing",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3113",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2d65b3c2-bf6c-4290-bb9b-4edf181a4d97",
+        "createdAt": "2025-11-09 20:25:18.799",
+        "updatedAt": "2025-11-09 20:25:18.799"
+    },
+    {
+        "id": 506,
+        "orgId": 15,
+        "orgDetailId": 220,
+        "title": "Security enhancements",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/2250",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/e2d82cb0-f150-4a25-b96d-8fd4d255fd96",
+        "createdAt": "2025-11-09 20:25:20.982",
+        "updatedAt": "2025-11-09 20:25:20.982"
+    },
+    {
+        "id": 507,
+        "orgId": 15,
+        "orgDetailId": 220,
+        "title": "OpenTelemetry exporter for Kyverno",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3120",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/e5515661-956e-49f2-8cef-8e9a14d52052",
+        "createdAt": "2025-11-09 20:25:22.436",
+        "updatedAt": "2025-11-09 20:25:22.436"
+    },
+    {
+        "id": 508,
+        "orgId": 76,
+        "orgDetailId": 221,
+        "title": "Active monitoring of Cross Zone communication",
+        "upstreamIssue": "https://github.com/kumahq/kuma/issues/1907",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/bf31f5d2-21a3-4dc4-bd85-c23f9088bad3",
+        "createdAt": "2025-11-09 20:25:25.166",
+        "updatedAt": "2025-11-09 20:25:25.166"
+    },
+    {
+        "id": 509,
+        "orgId": 76,
+        "orgDetailId": 221,
+        "title": "Add status infos in Kubernetes CRDs",
+        "upstreamIssue": "https://github.com/kumahq/kuma/issues/3734",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/c70ff3c2-f145-4396-bc48-559a03000a3c",
+        "createdAt": "2025-11-09 20:25:26.622",
+        "updatedAt": "2025-11-09 20:25:26.622"
+    },
+    {
+        "id": 510,
+        "orgId": 8,
+        "orgDetailId": 222,
+        "title": "Refactor get command to leverage aggregated API",
+        "upstreamIssue": "https://github.com/karmada-io/karmada/issues/1329",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/3adb1a6d-73db-44db-8ae8-bf57367e345f",
+        "createdAt": "2025-11-09 20:25:28.256",
+        "updatedAt": "2025-11-09 20:25:28.256"
+    },
+    {
+        "id": 511,
+        "orgId": 8,
+        "orgDetailId": 222,
+        "title": "Refactor the scheduler framework",
+        "upstreamIssue": "https://github.com/karmada-io/karmada/issues/1330",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/6b2d49dd-fcd3-480e-838d-7310d63c5823",
+        "createdAt": "2025-11-09 20:25:29.709",
+        "updatedAt": "2025-11-09 20:25:29.709"
+    },
+    {
+        "id": 512,
+        "orgId": 8,
+        "orgDetailId": 222,
+        "title": "Enhancement for controllers scalability",
+        "upstreamIssue": "https://github.com/karmada-io/karmada/issues/1331",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/74840708-0989-4983-88f6-9f43034ae351",
+        "createdAt": "2025-11-09 20:25:31.168",
+        "updatedAt": "2025-11-09 20:25:31.168"
+    },
+    {
+        "id": 513,
+        "orgId": 8,
+        "orgDetailId": 222,
+        "title": "Dashboard development",
+        "upstreamIssue": "https://github.com/karmada-io/dashboard/issues/10",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/aedf6276-0aff-417c-96a6-ecc94697e378",
+        "createdAt": "2025-11-09 20:25:32.621",
+        "updatedAt": "2025-11-09 20:25:32.621"
+    },
+    {
+        "id": 514,
+        "orgId": 30,
+        "orgDetailId": 223,
+        "title": "Documentation assessment (SIG-Network Gateway API)",
+        "upstreamIssue": "https://github.com/kubernetes-sigs/gateway-api/issues/1003",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0e4c9797-2dc5-4621-b46a-f1b7371a2495",
+        "createdAt": "2025-11-09 20:25:34.257",
+        "updatedAt": "2025-11-09 20:25:34.257"
+    },
+    {
+        "id": 515,
+        "orgId": 30,
+        "orgDetailId": 223,
+        "title": "Automation of AMI build/test/publish pipelines for Cluster API Provider AWS (CAPA)",
+        "upstreamIssue": "https://github.com/kubernetes-sigs/cluster-api-provider-aws/issues/1982",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/ce535d43-16a5-4db8-a048-2f56327b7939",
+        "createdAt": "2025-11-09 20:25:37.165",
+        "updatedAt": "2025-11-09 20:25:37.165"
+    },
+    {
+        "id": 516,
+        "orgId": 30,
+        "orgDetailId": 223,
+        "title": "Improvements to Kubernetes maintainers-related automation (SIG Contributor Experience)",
+        "upstreamIssue": "https://github.com/kubernetes/org/issues/3208",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/1db3f29c-30cb-4018-82c9-63b135caa6d5",
+        "createdAt": "2025-11-09 20:25:39.707",
+        "updatedAt": "2025-11-09 20:25:39.707"
+    },
+    {
+        "id": 517,
+        "orgId": 30,
+        "orgDetailId": 223,
+        "title": "Creating Katacoda Scenarios To Help New Contributors",
+        "upstreamIssue": "https://github.com/kubernetes/community/issues/5576",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/682ea527-4a16-4310-b104-aa00a15d1786",
+        "createdAt": "2025-11-09 20:25:41.345",
+        "updatedAt": "2025-11-09 20:25:41.345"
+    },
+    {
+        "id": 518,
+        "orgId": 30,
+        "orgDetailId": 223,
+        "title": "Improvising unit test coverage(CAPV)",
+        "upstreamIssue": "https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/issues/1392",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/fcf265aa-57d4-4ec4-aa2d-365ca2d97349",
+        "createdAt": "2025-11-09 20:25:43.16",
+        "updatedAt": "2025-11-09 20:25:43.16"
+    },
+    {
+        "id": 519,
+        "orgId": 77,
+        "orgDetailId": 224,
+        "title": "Elections Security Improvements",
+        "upstreamIssue": "https://github.com/elekto-io/elekto/issues/51",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/63faaa29-00a2-43af-b874-fa1b90630318",
+        "createdAt": "2025-11-09 20:25:46.067",
+        "updatedAt": "2025-11-09 20:25:46.067"
+    },
+    {
+        "id": 520,
+        "orgId": 23,
+        "orgDetailId": 225,
+        "title": "Add complete parsing support for MySQL functions",
+        "upstreamIssue": "https://github.com/vitessio/vitess/issues/8604",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/759a56fe-5e07-4078-9ad9-165ae85a0939",
+        "createdAt": "2025-11-09 20:25:49.525",
+        "updatedAt": "2025-11-09 20:25:49.525"
+    },
+    {
+        "id": 521,
+        "orgId": 78,
+        "orgDetailId": 226,
+        "title": "Database Connectors",
+        "upstreamIssue": "https://github.com/tremor-rs/tremor-runtime/issues/1453",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/5c828028-f91c-4969-b4de-9efdb27bb869",
+        "createdAt": "2025-11-09 20:25:52.43",
+        "updatedAt": "2025-11-09 20:25:52.43"
+    },
+    {
+        "id": 522,
+        "orgId": 78,
+        "orgDetailId": 226,
+        "title": "CI and Release process improvements",
+        "upstreamIssue": "https://github.com/tremor-rs/tremor-runtime/issues/1452",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/06ecd0e0-8d29-44e4-b249-80dd07704564",
+        "createdAt": "2025-11-09 20:25:54.249",
+        "updatedAt": "2025-11-09 20:25:54.249"
+    },
+    {
+        "id": 523,
+        "orgId": 13,
+        "orgDetailId": 227,
+        "title": "Plans for Node Group Management",
+        "upstreamIssue": "https://github.com/kubeedge/kubeedge/issues/3582",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/60e31adc-64b2-4ddf-9e09-01c64350aac1",
+        "createdAt": "2025-11-09 20:25:58.062",
+        "updatedAt": "2025-11-09 20:25:58.062"
+    },
+    {
+        "id": 524,
+        "orgId": 13,
+        "orgDetailId": 227,
+        "title": "Move edge native k8s api interface GA",
+        "upstreamIssue": "https://github.com/kubeedge/kubeedge/issues/3596",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/83b6042d-25e9-4e02-b9b7-e17e7f6fbf1b",
+        "createdAt": "2025-11-09 20:25:59.515",
+        "updatedAt": "2025-11-09 20:25:59.515"
+    },
+    {
+        "id": 525,
+        "orgId": 13,
+        "orgDetailId": 227,
+        "title": "Design and add more e2e tests especially for edge scenarios",
+        "upstreamIssue": "https://github.com/kubeedge/kubeedge/issues/3595",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/3d992848-6dfe-4760-8b30-6a2cd4a5895d",
+        "createdAt": "2025-11-09 20:26:00.967",
+        "updatedAt": "2025-11-09 20:26:00.967"
+    },
+    {
+        "id": 526,
+        "orgId": 13,
+        "orgDetailId": 227,
+        "title": "Updating the kubeedge docs",
+        "upstreamIssue": "https://github.com/kubeedge/website/issues/189",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0afab514-1094-4363-b700-d5116b2d62de",
+        "createdAt": "2025-11-09 20:26:02.42",
+        "updatedAt": "2025-11-09 20:26:02.42"
+    },
+    {
+        "id": 527,
+        "orgId": 21,
+        "orgDetailId": 228,
+        "title": "Run a community Thanos demo instance",
+        "upstreamIssue": "https://github.com/thanos-io/thanos/issues/4606",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/e49f92f3-4cca-4f10-a0c2-806df1ea63b5",
+        "createdAt": "2025-11-09 20:26:04.054",
+        "updatedAt": "2025-11-09 20:26:04.054"
+    },
+    {
+        "id": 528,
+        "orgId": 38,
+        "orgDetailId": 229,
+        "title": "Help drive OpenTelemetry PHP to Beta",
+        "upstreamIssue": "https://github.com/open-telemetry/opentelemetry-php/projects/1",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/9ec7fc38-8850-46b9-8b7b-4d648a903bb3",
+        "createdAt": "2025-11-09 20:26:06.596",
+        "updatedAt": "2025-11-09 20:26:06.596"
+    },
+    {
+        "id": 529,
+        "orgId": 80,
+        "orgDetailId": 230,
+        "title": "Add support for new protocols in protocol tracer",
+        "upstreamIssue": "https://github.com/pixie-io/pixie/issues/332, https://github.com/pixie-io/pixie/issues/341",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/61da37e0-a485-4b8e-aaa0-7e5b32578572",
+        "createdAt": "2025-11-09 20:26:08.238",
+        "updatedAt": "2025-11-09 20:26:08.238"
+    },
+    {
+        "id": 530,
+        "orgId": 53,
+        "orgDetailId": 231,
+        "title": "Definition of MeshMark",
+        "upstreamIssue": "https://github.com/service-mesh-performance/service-mesh-performance/issues/227",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2ba7b837-6385-46d7-9bdd-f8f5d4d570c5",
+        "createdAt": "2025-11-09 20:26:09.51",
+        "updatedAt": "2025-11-09 20:26:09.51"
+    },
+    {
+        "id": 531,
+        "orgId": 17,
+        "orgDetailId": 232,
+        "title": "Service mesh playground",
+        "upstreamIssue": "https://github.com/layer5io/meshery/issues/2931",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0fa2c3b1-f9e5-4f87-bdac-adb72d6a0752",
+        "createdAt": "2025-11-09 20:26:11.874",
+        "updatedAt": "2025-11-09 20:26:11.874"
+    },
+    {
+        "id": 532,
+        "orgId": 17,
+        "orgDetailId": 232,
+        "title": "Workflow engine",
+        "upstreamIssue": "https://github.com/meshery/meshery/issues/3934",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/da75a8fa-0174-47f2-a5be-0a31c62b053f",
+        "createdAt": "2025-11-09 20:26:13.335",
+        "updatedAt": "2025-11-09 20:26:13.335"
+    },
+    {
+        "id": 533,
+        "orgId": 81,
+        "orgDetailId": 233,
+        "title": "Conformance Program",
+        "upstreamIssue": "https://github.com/servicemeshinterface/smi-spec/issues/70",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/74cd9106-ed71-427c-a4ec-1dafe39a73c9",
+        "createdAt": "2025-11-09 20:26:15.524",
+        "updatedAt": "2025-11-09 20:26:15.524"
+    },
+    {
+        "id": 534,
+        "orgId": 54,
+        "orgDetailId": 234,
+        "title": "Report breaking changes in CustomResourceDefinition schemas for Pull Requests",
+        "upstreamIssue": "https://github.com/crossplane/crossplane/issues/2863",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/06fe8a5b-c3b9-4d12-975f-19f5ec49d006",
+        "createdAt": "2025-11-09 20:28:41.331",
+        "updatedAt": "2025-11-09 20:28:41.331"
+    },
+    {
+        "id": 535,
+        "orgId": 54,
+        "orgDetailId": 234,
+        "title": "Document and add automated testing for pulling packages from private registries",
+        "upstreamIssue": "https://github.com/crossplane/crossplane/issues/2913",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/c6e63427-09d9-42e5-b2af-c9c66e57881a",
+        "createdAt": "2025-11-09 20:28:41.914",
+        "updatedAt": "2025-11-09 20:28:41.914"
+    },
+    {
+        "id": 536,
+        "orgId": 8,
+        "orgDetailId": 235,
+        "title": "Cluster Resource modeling",
+        "upstreamIssue": "https://github.com/karmada-io/karmada/issues/772",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2b3edea5-1f6a-4f6b-a80a-38f5be4ec339",
+        "createdAt": "2025-11-09 20:28:42.625",
+        "updatedAt": "2025-11-09 20:28:42.625"
+    },
+    {
+        "id": 537,
+        "orgId": 8,
+        "orgDetailId": 235,
+        "title": "Develop Override policy, Resource Binding, Work Page",
+        "upstreamIssue": "https://github.com/karmada-io/dashboard/issues/15",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/bcccd290-87c5-4ad1-9360-e6041d51521c",
+        "createdAt": "2025-11-09 20:28:43.755",
+        "updatedAt": "2025-11-09 20:28:43.755"
+    },
+    {
+        "id": 538,
+        "orgId": 8,
+        "orgDetailId": 235,
+        "title": "Develop Propagation policy, Settings, About Pages",
+        "upstreamIssue": "https://github.com/karmada-io/dashboard/issues/16",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/25122df1-5e92-4d63-9ccc-b0c068237e00",
+        "createdAt": "2025-11-09 20:28:44.962",
+        "updatedAt": "2025-11-09 20:28:44.962"
+    },
+    {
+        "id": 539,
+        "orgId": 8,
+        "orgDetailId": 235,
+        "title": "Design & Develop FederatedResourceQuota, SearchRegistry & MultiClusterIngress page",
+        "upstreamIssue": "https://github.com/karmada-io/dashboard/issues/17",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/4c4ccc69-8a71-4f5e-913f-c3c79f9af9a4",
+        "createdAt": "2025-11-09 20:28:46.206",
+        "updatedAt": "2025-11-09 20:28:46.206"
+    },
+    {
+        "id": 540,
+        "orgId": 78,
+        "orgDetailId": 236,
+        "title": "Pluggable logging",
+        "upstreamIssue": "https://github.com/tremor-rs/tremor-runtime/issues/1621",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/1218d516-45af-46a3-977b-e5a9de818cec",
+        "createdAt": "2025-11-09 20:28:47.667",
+        "updatedAt": "2025-11-09 20:28:47.667"
+    },
+    {
+        "id": 541,
+        "orgId": 78,
+        "orgDetailId": 236,
+        "title": "Hygenic error handling and validation for pipelines",
+        "upstreamIssue": "https://github.com/tremor-rs/tremor-runtime/issues/1358",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/b503dac3-3b2f-49c5-be17-1d95404ef0a9",
+        "createdAt": "2025-11-09 20:28:48.451",
+        "updatedAt": "2025-11-09 20:28:48.451"
+    },
+    {
+        "id": 542,
+        "orgId": 24,
+        "orgDetailId": 237,
+        "title": "Official Website Docs Enhancement",
+        "upstreamIssue": "https://github.com/volcano-sh/website/issues/209",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/d5a09dfc-c4cc-4733-8c4c-ff3aab2e3688",
+        "createdAt": "2025-11-09 20:28:49.493",
+        "updatedAt": "2025-11-09 20:28:49.493"
+    },
+    {
+        "id": 543,
+        "orgId": 24,
+        "orgDetailId": 237,
+        "title": "Volcano scalability enhancement",
+        "upstreamIssue": "https://github.com/volcano-sh/volcano/issues/2211",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/8d1c8ff1-24da-4839-9072-3a6070eeb482",
+        "createdAt": "2025-11-09 20:28:51.176",
+        "updatedAt": "2025-11-09 20:28:51.176"
+    },
+    {
+        "id": 544,
+        "orgId": 12,
+        "orgDetailId": 238,
+        "title": "Supporting KubeArmor on ARM platforms",
+        "upstreamIssue": "https://github.com/kubearmor/KubeArmor/issues/614",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/a91eab39-88b3-4a42-82bf-2bd963772acb",
+        "createdAt": "2025-11-09 20:28:52.269",
+        "updatedAt": "2025-11-09 20:28:52.269"
+    },
+    {
+        "id": 545,
+        "orgId": 12,
+        "orgDetailId": 238,
+        "title": "Support for OpenShift",
+        "upstreamIssue": "https://github.com/kubearmor/KubeArmor/issues/221",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/af03f76c-6253-4efc-b26b-17c522794813",
+        "createdAt": "2025-11-09 20:28:53.57",
+        "updatedAt": "2025-11-09 20:28:53.57"
+    },
+    {
+        "id": 546,
+        "orgId": 12,
+        "orgDetailId": 238,
+        "title": "Extend kArmor to include KubeArmor configuration",
+        "upstreamIssue": "https://github.com/kubearmor/kubearmor-client/issues/19#issue-1048413733",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/65cabd48-6a5a-4eb6-9e80-4420c152da6a",
+        "createdAt": "2025-11-09 20:28:54.71",
+        "updatedAt": "2025-11-09 20:28:54.71"
+    },
+    {
+        "id": 547,
+        "orgId": 21,
+        "orgDetailId": 239,
+        "title": "Implement Unified Endpoint Discovery",
+        "upstreamIssue": "https://github.com/thanos-io/thanos/issues/5340",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0afef0c2-6ad0-41f1-8c56-10a52afe87b7",
+        "createdAt": "2025-11-09 20:28:55.631",
+        "updatedAt": "2025-11-09 20:28:55.631"
+    },
+    {
+        "id": 548,
+        "orgId": 25,
+        "orgDetailId": 240,
+        "title": "Create a Tokio-like async runtime in WasmEdge",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1429",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/666271e6-7bdf-4050-a2a2-3adaac5a7c13",
+        "createdAt": "2025-11-09 20:28:56.576",
+        "updatedAt": "2025-11-09 20:28:56.576"
+    },
+    {
+        "id": 549,
+        "orgId": 25,
+        "orgDetailId": 240,
+        "title": "Provide a wasm-compatible Rust TLS implementation",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1430",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/fca1338f-5be0-41e6-a499-b44e2e722096",
+        "createdAt": "2025-11-09 20:28:57.684",
+        "updatedAt": "2025-11-09 20:28:57.684"
+    },
+    {
+        "id": 550,
+        "orgId": 25,
+        "orgDetailId": 240,
+        "title": "Support Durable Objects (DO) in WasmEdge",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1431",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/232a19f2-40de-4dfa-8966-2c1586bc6ecc",
+        "createdAt": "2025-11-09 20:28:58.809",
+        "updatedAt": "2025-11-09 20:28:58.809"
+    },
+    {
+        "id": 551,
+        "orgId": 25,
+        "orgDetailId": 240,
+        "title": "Implement component-model proposal in WasmEdge",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1433",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/5def28a6-3ec2-4ba3-b56f-403a03a2b9ef",
+        "createdAt": "2025-11-09 20:29:00.448",
+        "updatedAt": "2025-11-09 20:29:00.448"
+    },
+    {
+        "id": 552,
+        "orgId": 15,
+        "orgDetailId": 241,
+        "title": "Integrate Kubernetes Pod Security with Kyverno",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3830",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/d145fd38-b533-49a8-9b02-60220f9f618c",
+        "createdAt": "2025-11-09 20:29:01.364",
+        "updatedAt": "2025-11-09 20:29:01.364"
+    },
+    {
+        "id": 553,
+        "orgId": 15,
+        "orgDetailId": 241,
+        "title": "Kyverno SLSA 3",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3119",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/457cabc9-90d3-4519-bfad-92966501dbd4",
+        "createdAt": "2025-11-09 20:29:02.298",
+        "updatedAt": "2025-11-09 20:29:02.298"
+    },
+    {
+        "id": 554,
+        "orgId": 15,
+        "orgDetailId": 241,
+        "title": "CLI test schema and enhancements",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3271",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0e385057-2c8f-48b2-8ff9-b4244870c10c",
+        "createdAt": "2025-11-09 20:29:03.322",
+        "updatedAt": "2025-11-09 20:29:03.322"
+    },
+    {
+        "id": 555,
+        "orgId": 82,
+        "orgDetailId": 242,
+        "title": "Support and update the Python Functions Framework",
+        "upstreamIssue": "https://github.com/OpenFunction/functions-framework/issues/18",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0c5cecb1-3de8-435a-acdf-7adfcbd759d3",
+        "createdAt": "2025-11-09 20:29:04.129",
+        "updatedAt": "2025-11-09 20:29:04.129"
+    },
+    {
+        "id": 556,
+        "orgId": 83,
+        "orgDetailId": 243,
+        "title": "Support BGP policy in OpenELB",
+        "upstreamIssue": "https://github.com/openelb/openelb/issues/267",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/b97a815b-6900-4a3e-a4af-7460551f933c",
+        "createdAt": "2025-11-09 20:29:05.448",
+        "updatedAt": "2025-11-09 20:29:05.448"
+    },
+    {
+        "id": 557,
+        "orgId": 83,
+        "orgDetailId": 243,
+        "title": "Provide the OpenELB Web UI for managing EIP and IP pool",
+        "upstreamIssue": "https://github.com/openelb/openelb/issues/244",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/947885e1-6b32-4b3c-85cb-955cb617237e",
+        "createdAt": "2025-11-09 20:29:06.67",
+        "updatedAt": "2025-11-09 20:29:06.67"
+    },
+    {
+        "id": 558,
+        "orgId": 17,
+        "orgDetailId": 244,
+        "title": "Cloud Native Playground",
+        "upstreamIssue": "https://github.com/meshery/play/issues/16",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/bb6cf95e-bbdc-4b50-8446-45507c9e5a6a",
+        "createdAt": "2025-11-09 20:29:08.039",
+        "updatedAt": "2025-11-09 20:29:08.039"
+    },
+    {
+        "id": 559,
+        "orgId": 17,
+        "orgDetailId": 244,
+        "title": "Design Configurator",
+        "upstreamIssue": "https://github.com/meshery/meshery/issues/5504",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/cf4de999-41a9-4769-a298-d7d4b208ab3d",
+        "createdAt": "2025-11-09 20:29:08.839",
+        "updatedAt": "2025-11-09 20:29:08.839"
+    },
+    {
+        "id": 560,
+        "orgId": 53,
+        "orgDetailId": 245,
+        "title": "Implementation of MeshMark",
+        "upstreamIssue": "https://github.com/service-mesh-performance/service-mesh-performance/issues/325",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/cf992af8-6102-4c2d-8394-c3462112e39f",
+        "createdAt": "2025-11-09 20:29:10.069",
+        "updatedAt": "2025-11-09 20:29:10.069"
+    },
+    {
+        "id": 561,
+        "orgId": 84,
+        "orgDetailId": 246,
+        "title": "Add Compose file support in the spec API",
+        "upstreamIssue": "https://github.com/devfile/api/issues/501",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/ef552046-cf54-4fe1-ac31-0a1014210e15",
+        "createdAt": "2025-11-09 20:29:11.298",
+        "updatedAt": "2025-11-09 20:29:11.298"
+    },
+    {
+        "id": 562,
+        "orgId": 84,
+        "orgDetailId": 246,
+        "title": "Add some syntax sugar to speficy the components that are deployed at startup and those that are not",
+        "upstreamIssue": "https://github.com/devfile/api/issues/852",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/3feec75a-3d80-476a-83ab-89ee90f48aad",
+        "createdAt": "2025-11-09 20:29:12.413",
+        "updatedAt": "2025-11-09 20:29:12.413"
+    },
+    {
+        "id": 563,
+        "orgId": 63,
+        "orgDetailId": 247,
+        "title": "Add GPU Support",
+        "upstreamIssue": "https://github.com/kubernetes-sigs/cluster-api-provider-gcp/issues/289",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/e799bb33-a695-420b-af32-e596938c6960",
+        "createdAt": "2025-11-09 20:29:13.948",
+        "updatedAt": "2025-11-09 20:29:13.948"
+    },
+    {
+        "id": 564,
+        "orgId": 23,
+        "orgDetailId": 248,
+        "title": "Add complete parsing support for Spatial MySQL functions",
+        "upstreamIssue": "https://github.com/vitessio/vitess/issues/8604",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/75533c12-1487-40b0-858c-42babeabf782",
+        "createdAt": "2025-11-09 20:29:14.875",
+        "updatedAt": "2025-11-09 20:29:14.875"
+    },
+    {
+        "id": 565,
+        "orgId": 36,
+        "orgDetailId": 249,
+        "title": "Improving Security posture of the Cilium/Hubble/Tetragon release process",
+        "upstreamIssue": "https://github.com/cilium/cilium/issues/19282",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/680e32e5-d056-46fa-a94d-4af453d4e81d",
+        "createdAt": "2025-11-09 20:29:27.991",
+        "updatedAt": "2025-11-09 20:29:27.991"
+    },
+    {
+        "id": 566,
+        "orgId": 61,
+        "orgDetailId": 250,
+        "title": "Mentoring Workspaces - GITHUBUSER.PROJECT.cncf.io (w/ VSCode)",
+        "upstreamIssue": "https://github.com/sharingio/pair/issues/173",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2f5582f4-6cfa-41af-88d2-2bfdd8768756",
+        "createdAt": "2025-11-09 20:29:29.634",
+        "updatedAt": "2025-11-09 20:29:29.634"
+    },
+    {
+        "id": 567,
+        "orgId": 44,
+        "orgDetailId": 251,
+        "title": "Kubernetes ontology and subgraph module design",
+        "upstreamIssue": "https://github.com/cncf/tag-network/issues/21",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/df449a23-ac20-4ee9-8a2c-e0e5d08ba727",
+        "createdAt": "2025-11-09 20:29:31.371",
+        "updatedAt": "2025-11-09 20:29:31.371"
+    },
+    {
+        "id": 568,
+        "orgId": 84,
+        "orgDetailId": 252,
+        "title": "Add Compose file support in the spec API II",
+        "upstreamIssue": "https://github.com/devfile/api/issues/501",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/8b4aeab0-f891-4a67-a510-61393ca38520",
+        "createdAt": "2025-11-09 20:29:32.593",
+        "updatedAt": "2025-11-09 20:29:32.593"
+    },
+    {
+        "id": 569,
+        "orgId": 8,
+        "orgDetailId": 253,
+        "title": "Enable configurable resource interpreter",
+        "upstreamIssue": "https://github.com/karmada-io/karmada/issues/2371",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/40b17a86-e470-4406-b7f0-731e689a39f4",
+        "createdAt": "2025-11-09 20:29:33.81",
+        "updatedAt": "2025-11-09 20:29:33.81"
+    },
+    {
+        "id": 570,
+        "orgId": 12,
+        "orgDetailId": 254,
+        "title": "Add BTF and BPF CO-RE Support to KubeArmor",
+        "upstreamIssue": "https://github.com/kubearmor/KubeArmor/issues/789",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/d61e1b05-2a4f-432d-b715-57c818b3e120",
+        "createdAt": "2025-11-09 20:29:35.161",
+        "updatedAt": "2025-11-09 20:29:35.161"
+    },
+    {
+        "id": 571,
+        "orgId": 12,
+        "orgDetailId": 254,
+        "title": "Use non-privileged containers for KubeArmor daemonset",
+        "upstreamIssue": "https://github.com/kubearmor/KubeArmor/issues/781",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/3cc962b4-cd8b-46ea-9c77-83304145fd51",
+        "createdAt": "2025-11-09 20:29:36.29",
+        "updatedAt": "2025-11-09 20:29:36.29"
+    },
+    {
+        "id": 572,
+        "orgId": 15,
+        "orgDetailId": 255,
+        "title": "Policy Exceptions",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/2627",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/0eb98f34-bfd8-4ba1-b9e5-47fc67b6fd41",
+        "createdAt": "2025-11-09 20:29:37.415",
+        "updatedAt": "2025-11-09 20:29:37.415"
+    },
+    {
+        "id": 573,
+        "orgId": 15,
+        "orgDetailId": 255,
+        "title": "Enable resource clean-up",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3483",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/25e0fa72-8260-4c6f-819b-d87b865e58f2",
+        "createdAt": "2025-11-09 20:29:38.365",
+        "updatedAt": "2025-11-09 20:29:38.365"
+    },
+    {
+        "id": 574,
+        "orgId": 15,
+        "orgDetailId": 255,
+        "title": "Implement new custom JMESPath filters",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3981",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/bb0ff695-3d54-4ce2-b93c-3ab92842b3ee",
+        "createdAt": "2025-11-09 20:29:39.271",
+        "updatedAt": "2025-11-09 20:29:39.271"
+    },
+    {
+        "id": 575,
+        "orgId": 15,
+        "orgDetailId": 255,
+        "title": "Logging in JSON plus other enhancements",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3411",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/e5ef8032-3dd3-44c3-8746-620f4f678d60",
+        "createdAt": "2025-11-09 20:29:39.96",
+        "updatedAt": "2025-11-09 20:29:39.96"
+    },
+    {
+        "id": 576,
+        "orgId": 15,
+        "orgDetailId": 255,
+        "title": "More support for subresources",
+        "upstreamIssue": "https://github.com/kyverno/kyverno/issues/3118",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/9ac41a72-62f4-48e9-8630-5f9be261e2bf",
+        "createdAt": "2025-11-09 20:29:40.685",
+        "updatedAt": "2025-11-09 20:29:40.685"
+    },
+    {
+        "id": 577,
+        "orgId": 17,
+        "orgDetailId": 256,
+        "title": "Integration of Open Policy Agent (OPA) and Meshery",
+        "upstreamIssue": "https://github.com/meshery/meshery/issues/544",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/ea439582-8c63-498d-9066-dc563ce1172e",
+        "createdAt": "2025-11-09 20:29:41.384",
+        "updatedAt": "2025-11-09 20:29:41.384"
+    },
+    {
+        "id": 578,
+        "orgId": 17,
+        "orgDetailId": 256,
+        "title": "User Interface Overhaul: State Management w/Apollo/GraphQL",
+        "upstreamIssue": "https://github.com/meshery/meshery/issues/5094",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/7592d7db-5517-445b-95e8-14144c49e9b1",
+        "createdAt": "2025-11-09 20:29:42.544",
+        "updatedAt": "2025-11-09 20:29:42.544"
+    },
+    {
+        "id": 579,
+        "orgId": 53,
+        "orgDetailId": 257,
+        "title": "Adaptive Load Controller",
+        "upstreamIssue": "https://github.com/service-mesh-performance/service-mesh-performance/issues/350",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/9959277e-eefc-4c88-83b6-e8c4b011d557",
+        "createdAt": "2025-11-09 20:29:44.404",
+        "updatedAt": "2025-11-09 20:29:44.404"
+    },
+    {
+        "id": 580,
+        "orgId": 53,
+        "orgDetailId": 257,
+        "title": "Convergence of Network and Graph topologies",
+        "upstreamIssue": "https://github.com/service-mesh-performance/service-mesh-performance/issues/351",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2c4510d6-7b73-4082-a3f4-209f61767263",
+        "createdAt": "2025-11-09 20:29:45.59",
+        "updatedAt": "2025-11-09 20:29:45.59"
+    },
+    {
+        "id": 581,
+        "orgId": 21,
+        "orgDetailId": 258,
+        "title": "Receive: Support for tenant-specific external labels",
+        "upstreamIssue": "https://github.com/thanos-io/thanos/issues/5434",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/7a13b009-0365-4910-8fbf-9088294870fd",
+        "createdAt": "2025-11-09 20:29:46.836",
+        "updatedAt": "2025-11-09 20:29:46.836"
+    },
+    {
+        "id": 582,
+        "orgId": 21,
+        "orgDetailId": 258,
+        "title": "Load balancing of API communication in Thanos",
+        "upstreamIssue": "https://github.com/thanos-io/thanos/issues/3016",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/de2d206e-32cc-45da-bc5a-1fbc7bc1f5c8",
+        "createdAt": "2025-11-09 20:29:47.448",
+        "updatedAt": "2025-11-09 20:29:47.448"
+    },
+    {
+        "id": 583,
+        "orgId": 23,
+        "orgDetailId": 259,
+        "title": "Add complete parsing support for Spatial MySQL functions II",
+        "upstreamIssue": "https://github.com/vitessio/vitess/issues/8604",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/845ccf34-d7aa-45cf-abc2-1b3064e96af1",
+        "createdAt": "2025-11-09 20:29:48.577",
+        "updatedAt": "2025-11-09 20:29:48.577"
+    },
+    {
+        "id": 584,
+        "orgId": 23,
+        "orgDetailId": 259,
+        "title": "Improve evaluation engine",
+        "upstreamIssue": "https://github.com/vitessio/vitess/issues/9647",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/29ec853c-3ab9-4457-ac91-d273fa073d49",
+        "createdAt": "2025-11-09 20:29:50.004",
+        "updatedAt": "2025-11-09 20:29:50.004"
+    },
+    {
+        "id": 585,
+        "orgId": 24,
+        "orgDetailId": 260,
+        "title": "Pick out reasonable victim pods for rescheduling plugin",
+        "upstreamIssue": "https://github.com/volcano-sh/volcano/issues/2425",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/9f0d56c0-9781-4912-988f-86443b0dd161",
+        "createdAt": "2025-11-09 20:29:50.913",
+        "updatedAt": "2025-11-09 20:29:50.913"
+    },
+    {
+        "id": 586,
+        "orgId": 24,
+        "orgDetailId": 260,
+        "title": "Implement pod filter chain for rescheduling",
+        "upstreamIssue": "https://github.com/volcano-sh/volcano/issues/2428",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/4dc62372-c04f-432f-847c-2cddd2cf786a",
+        "createdAt": "2025-11-09 20:29:51.75",
+        "updatedAt": "2025-11-09 20:29:51.75"
+    },
+    {
+        "id": 587,
+        "orgId": 24,
+        "orgDetailId": 260,
+        "title": "Avoid hot node in dynamic scheduling based on real workload",
+        "upstreamIssue": "https://github.com/volcano-sh/volcano/issues/2426",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/2ceeee35-a85d-4768-9f22-d22838e27cd5",
+        "createdAt": "2025-11-09 20:29:52.573",
+        "updatedAt": "2025-11-09 20:29:52.573"
+    },
+    {
+        "id": 588,
+        "orgId": 24,
+        "orgDetailId": 260,
+        "title": "Integrate Volcano with Ray",
+        "upstreamIssue": "https://github.com/volcano-sh/volcano/issues/2429",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/c6dff087-9b4d-4ff5-865d-abd876974534",
+        "createdAt": "2025-11-09 20:29:53.485",
+        "updatedAt": "2025-11-09 20:29:53.485"
+    },
+    {
+        "id": 589,
+        "orgId": 24,
+        "orgDetailId": 260,
+        "title": "Support hot update daemon log level",
+        "upstreamIssue": "https://github.com/volcano-sh/volcano/issues/2430",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/02972292-469d-431a-96be-149a04ea2746",
+        "createdAt": "2025-11-09 20:29:53.899",
+        "updatedAt": "2025-11-09 20:29:53.899"
+    },
+    {
+        "id": 590,
+        "orgId": 25,
+        "orgDetailId": 261,
+        "title": "Support serialize and deserialize in WasmEdge",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1741",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/da1162c6-2aaf-496f-9f23-a96a3e52c277",
+        "createdAt": "2025-11-09 20:29:54.392",
+        "updatedAt": "2025-11-09 20:29:54.392"
+    },
+    {
+        "id": 591,
+        "orgId": 25,
+        "orgDetailId": 261,
+        "title": "Porting OpenVINO on multiple platforms for the WASI-NN proposal in WasmEdge",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1742",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/d01efa41-87a7-4f34-adfe-63c7bab7c1ca",
+        "createdAt": "2025-11-09 20:29:55.212",
+        "updatedAt": "2025-11-09 20:29:55.212"
+    },
+    {
+        "id": 592,
+        "orgId": 25,
+        "orgDetailId": 261,
+        "title": "Node API support for WasmEdge QuickJS",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1745",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/4853174a-267d-4cd4-a62d-6e68d0c338b1",
+        "createdAt": "2025-11-09 20:29:56.058",
+        "updatedAt": "2025-11-09 20:29:56.058"
+    },
+    {
+        "id": 593,
+        "orgId": 25,
+        "orgDetailId": 261,
+        "title": "OpenCV SDKs for Wasm in WasmEdge",
+        "upstreamIssue": "https://github.com/WasmEdge/WasmEdge/issues/1747",
+        "lfxUrl": "https://mentorship.lfx.linuxfoundation.org/project/17fc622c-5674-4381-b597-2f49409fda01",
+        "createdAt": "2025-11-09 20:29:56.865",
+        "updatedAt": "2025-11-09 20:29:56.865"
     }
 ]

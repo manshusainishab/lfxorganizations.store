@@ -2590,5 +2590,209 @@
         "name": "ffmpeg",
         "createdAt": "2025-10-27 07:30:27.937",
         "updatedAt": "2025-10-27 07:30:27.937"
+    },
+    {
+        "id": 458,
+        "name": "Shell scripts",
+        "createdAt": "2025-11-09 20:25:02.237",
+        "updatedAt": "2025-11-09 20:25:02.237"
+    },
+    {
+        "id": 459,
+        "name": "Terraform",
+        "createdAt": "2025-11-09 20:25:06.976",
+        "updatedAt": "2025-11-09 20:25:06.976"
+    },
+    {
+        "id": 460,
+        "name": "profiling tools",
+        "createdAt": "2025-11-09 20:25:08.43",
+        "updatedAt": "2025-11-09 20:25:08.43"
+    },
+    {
+        "id": 461,
+        "name": "OpenVINO",
+        "createdAt": "2025-11-09 20:25:11.885",
+        "updatedAt": "2025-11-09 20:25:11.885"
+    },
+    {
+        "id": 462,
+        "name": "Test",
+        "createdAt": "2025-11-09 20:25:15.166",
+        "updatedAt": "2025-11-09 20:25:15.166"
+    },
+    {
+        "id": 463,
+        "name": "Automation",
+        "createdAt": "2025-11-09 20:25:15.711",
+        "updatedAt": "2025-11-09 20:25:15.711"
+    },
+    {
+        "id": 464,
+        "name": "Observability",
+        "createdAt": "2025-11-09 20:25:22.799",
+        "updatedAt": "2025-11-09 20:25:22.799"
+    },
+    {
+        "id": 465,
+        "name": "Documentation",
+        "createdAt": "2025-11-09 20:25:34.983",
+        "updatedAt": "2025-11-09 20:25:34.983"
+    },
+    {
+        "id": 466,
+        "name": "English",
+        "createdAt": "2025-11-09 20:25:35.529",
+        "updatedAt": "2025-11-09 20:25:35.529"
+    },
+    {
+        "id": 467,
+        "name": "GitHub APIs",
+        "createdAt": "2025-11-09 20:25:40.435",
+        "updatedAt": "2025-11-09 20:25:40.435"
+    },
+    {
+        "id": 468,
+        "name": "Flask",
+        "createdAt": "2025-11-09 20:25:46.794",
+        "updatedAt": "2025-11-09 20:25:46.794"
+    },
+    {
+        "id": 469,
+        "name": "cryptographic libraries",
+        "createdAt": "2025-11-09 20:25:48.428",
+        "updatedAt": "2025-11-09 20:25:48.428"
+    },
+    {
+        "id": 470,
+        "name": "Make",
+        "createdAt": "2025-11-09 20:25:54.612",
+        "updatedAt": "2025-11-09 20:25:54.612"
+    },
+    {
+        "id": 471,
+        "name": "Packaging",
+        "createdAt": "2025-11-09 20:25:56.61",
+        "updatedAt": "2025-11-09 20:25:56.61"
+    },
+    {
+        "id": 472,
+        "name": "PHP",
+        "createdAt": "2025-11-09 20:26:06.96",
+        "updatedAt": "2025-11-09 20:26:06.96"
+    },
+    {
+        "id": 473,
+        "name": "Algorithms",
+        "createdAt": "2025-11-09 20:26:10.237",
+        "updatedAt": "2025-11-09 20:26:10.237"
+    },
+    {
+        "id": 474,
+        "name": "Data Science",
+        "createdAt": "2025-11-09 20:26:10.783",
+        "updatedAt": "2025-11-09 20:26:10.783"
+    },
+    {
+        "id": 475,
+        "name": "algorithm",
+        "createdAt": "2025-11-09 20:28:43.241",
+        "updatedAt": "2025-11-09 20:28:43.241"
+    },
+    {
+        "id": 476,
+        "name": "Frontend development",
+        "createdAt": "2025-11-09 20:28:46.396",
+        "updatedAt": "2025-11-09 20:28:46.396"
+    },
+    {
+        "id": 477,
+        "name": "Programming Language Design",
+        "createdAt": "2025-11-09 20:28:48.888",
+        "updatedAt": "2025-11-09 20:28:48.888"
+    },
+    {
+        "id": 478,
+        "name": "Chinese",
+        "createdAt": "2025-11-09 20:28:50.568",
+        "updatedAt": "2025-11-09 20:28:50.568"
+    },
+    {
+        "id": 479,
+        "name": "raspberry-pi",
+        "createdAt": "2025-11-09 20:28:52.682",
+        "updatedAt": "2025-11-09 20:28:52.682"
+    },
+    {
+        "id": 480,
+        "name": "OpenShift",
+        "createdAt": "2025-11-09 20:28:53.764",
+        "updatedAt": "2025-11-09 20:28:53.764"
+    },
+    {
+        "id": 481,
+        "name": "tokio",
+        "createdAt": "2025-11-09 20:28:56.967",
+        "updatedAt": "2025-11-09 20:28:56.967"
+    },
+    {
+        "id": 482,
+        "name": "crypto",
+        "createdAt": "2025-11-09 20:28:58.28",
+        "updatedAt": "2025-11-09 20:28:58.28"
+    },
+    {
+        "id": 483,
+        "name": "Anna KVS",
+        "createdAt": "2025-11-09 20:28:59.01",
+        "updatedAt": "2025-11-09 20:28:59.01"
+    },
+    {
+        "id": 484,
+        "name": "Database",
+        "createdAt": "2025-11-09 20:28:59.922",
+        "updatedAt": "2025-11-09 20:28:59.922"
+    },
+    {
+        "id": 485,
+        "name": "OpenFunction",
+        "createdAt": "2025-11-09 20:29:04.742",
+        "updatedAt": "2025-11-09 20:29:04.742"
+    },
+    {
+        "id": 486,
+        "name": "JSON Schema",
+        "createdAt": "2025-11-09 20:29:09.462",
+        "updatedAt": "2025-11-09 20:29:09.462"
+    },
+    {
+        "id": 487,
+        "name": "Compose",
+        "createdAt": "2025-11-09 20:29:11.705",
+        "updatedAt": "2025-11-09 20:29:11.705"
+    },
+    {
+        "id": 488,
+        "name": "System Administration",
+        "createdAt": "2025-11-09 20:29:30.653",
+        "updatedAt": "2025-11-09 20:29:30.653"
+    },
+    {
+        "id": 489,
+        "name": "neo4j",
+        "createdAt": "2025-11-09 20:29:31.98",
+        "updatedAt": "2025-11-09 20:29:31.98"
+    },
+    {
+        "id": 490,
+        "name": "Kernel",
+        "createdAt": "2025-11-09 20:29:35.391",
+        "updatedAt": "2025-11-09 20:29:35.391"
+    },
+    {
+        "id": 491,
+        "name": "apollo",
+        "createdAt": "2025-11-09 20:29:42.968",
+        "updatedAt": "2025-11-09 20:29:42.968"
     }
 ]
