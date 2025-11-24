@@ -48,8 +48,6 @@ export const getTodaysFlashcard = async (req: Request, res: Response) => {
       return res.json({ message: "Flashcard already viewed today" });
     }
 
-    // For the flashcard itself:
-    // If `availableOn` is a DATE column, keep the YYYY-MM-DD string.
     const todayDate = new Date().toISOString().split("T")[0];
 
     const card = await db.query.flashcards.findFirst({
