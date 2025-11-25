@@ -9,7 +9,6 @@ import axios from "axios"
 import OrganizationDetailsPage from './components/OrganizationDetailsPage';
 import Loader from "./components/loader"
 import { SERVICE_API_BASE_URL } from "../env"
-import { data } from "../data"
 import FlashCardPopup from "./components/FlashCardPopup"
 
 function Home() {
@@ -22,14 +21,14 @@ function Home() {
   useEffect(() => {
     const fetchOrganizations = async () => {
     try {
-      const flashCard = await axios.get(`${SERVICE_API_BASE_URL}/flashcards/today`, { withCredentials: true });
-      setTodayFlashcard(flashCard.data);
-      // const response = await axios.get(`${SERVICE_API_BASE_URL}/orgs`)
+      const response = await axios.get(`${SERVICE_API_BASE_URL}/orgs`)
       setOrganizations(
-      data
+      response.data.sort((a: Organization, b: Organization) => a.name.localeCompare(b.name))
       )
+      const flashCard = await axios.get(`${SERVICE_API_BASE_URL}/flashcards/today`, { withCredentials: true });
+      setTodayFlashcard(flashCard.data);      
       console.log("Organizations fetched successfully")
-      // console.log(response.data)
+      console.log(response.data)
     } catch (err : any) {
       console.error("Failed to fetch organizations", err.message)
     }
