@@ -2,10 +2,10 @@ import axios from "axios";
 import { createContext, useContext, useEffect, useState } from "react";
 
 interface User {
-  userName: string;
+  login: string;
   name: string;
   email: string;
-  avatar?: string;
+  avatar_url?: string;
 }
 
 interface UserContextType {
