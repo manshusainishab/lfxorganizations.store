@@ -44,9 +44,9 @@ export const getTodaysFlashcard = async (req: Request, res: Response) => {
         ),
     });
 
-    if (isAlreadyViewed) {
-      return res.json({ message: "Flashcard already viewed today" });
-    }
+    // if (isAlreadyViewed) {
+    //   return res.json({ message: "Flashcard already viewed today" });
+    // }
 
     const todayDate = new Date().toISOString().split("T")[0];
 
